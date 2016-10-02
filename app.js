@@ -27,6 +27,13 @@
              $scope.message = "Too Much";
           }
        }
+       $scope.getStyle = function(message)
+       {
+          if(message == "Please enter data first.")
+            return {'color':'red'};
+          if((message == "Enjoy") || (message == "Too Much"))
+            return {'color':'green'};
+      }
      };
    }
 
