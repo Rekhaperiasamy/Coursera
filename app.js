@@ -12,7 +12,7 @@
 
        if($scope.listdishes === "")
        {
-         $scope.message = "Please enter data first.";
+         $scope.message = "Please enter data first";
        }
        else
        {
@@ -29,7 +29,7 @@
        }
        $scope.getStyle = function(message)
        {
-          if(message == "Please enter data first.")
+          if(message == "Please enter data first")
             return {'color':'red'};
           if((message == "Enjoy!") || (message == "Too Much!"))
             return {'color':'green'};
